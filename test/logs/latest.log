@@ -1,0 +1,374 @@
+[22:06:11] [Server thread/INFO]: 
+          :::     :::::::::: :::::::: ::::::::::: :::::::: 
+       :+: :+:   :+:       :+:    :+:    :+:    :+:    :+: 
+     +:+   +:+  +:+       +:+           +:+    +:+         
+   +#++:++#++: +#++:++#  :#:           +#+    +#++:++#++   
+  +#+     +#+ +#+       +#+   +#+#    +#+           +#+    
+ #+#     #+# #+#       #+#    #+#    #+#    #+#    #+#     
+###     ### ########## ######## ########### ########       
+
+[22:06:11] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[22:06:11] [Server thread/INFO]: Loading properties
+[22:06:11] [Server thread/INFO]: Default game type: SURVIVAL
+[22:06:11] [Server thread/INFO]: This server is running Aegis version git-Aegis-ffcdd8a (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT) (Git: null on null)
+[22:06:12] [Server thread/INFO]: Debug logging is disabled
+[22:06:12] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:06:12] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:06:12] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[22:06:12] [Server thread/INFO]: Data value allowed items: 
+[22:06:12] [Server thread/INFO]: Generating keypair
+[22:06:12] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:06:12] [Server thread/INFO]: Using default channel type
+[22:06:12] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[22:06:12] [Server thread/INFO]: [TwentyQuestions] Loading TwentyQuestions v1.0
+[22:06:12] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.5.1
+[22:06:12] [Server thread/INFO]: [ViaVersion] ViaVersion 4.5.1 is now loaded, injecting!
+[22:06:12] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[22:06:12] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[22:06:12] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[22:06:12] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[22:06:12] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[22:06:12] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[22:06:12] [Via-Mappingloader-6/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[22:06:12] [Via-Mappingloader-7/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
+[22:06:13] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.18 -> 1.19 mappings...
+[22:06:13] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[22:06:13] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.19 -> 1.19.3 mappings...
+[22:06:13] [Server thread/ERROR]: [ViaBackwards] ================================
+[22:06:13] [Server thread/ERROR]: [ViaBackwards] YOUR VIAVERSION IS OUTDATED
+[22:06:13] [Server thread/ERROR]: [ViaBackwards] PLEASE USE VIAVERSION 4.7.0 OR NEWER
+[22:06:13] [Server thread/ERROR]: [ViaBackwards] LINK: https://ci.viaversion.com/
+[22:06:13] [Server thread/ERROR]: [ViaBackwards] VIABACKWARDS WILL NOW DISABLE
+[22:06:13] [Server thread/ERROR]: [ViaBackwards] ================================
+[22:06:13] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.7.0
+[22:06:13] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.2
+[22:06:13] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.2
+[22:06:13] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[22:06:13] [Server thread/INFO]: Preparing level "world"
+[22:06:13] [Server thread/INFO]: -------- World Settings For [world] --------
+[22:06:13] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:06:13] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:06:13] [Server thread/INFO]: View Distance: 10
+[22:06:13] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:06:13] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:06:13] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:06:13] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[22:06:13] [Server thread/INFO]: Clear tick list: false
+[22:06:13] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:06:13] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[22:06:13] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[22:06:13] [Server thread/INFO]: Anti X-Ray: true
+[22:06:13] [Server thread/INFO]: 	Engine Mode: 1
+[22:06:13] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[22:06:13] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[22:06:13] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:06:13] [Server thread/INFO]: Mob Spawn Range: 4
+[22:06:13] [Server thread/INFO]: Random Lighting Updates: false
+[22:06:13] [Server thread/INFO]: Structure Info Saving: true
+[22:06:13] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:06:13] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:06:13] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:06:13] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:06:13] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:06:13] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:06:13] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:06:13] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:06:13] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:06:13] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[22:06:13] [Server thread/INFO]: Sending up to 10 chunks per packet
+[22:06:13] [Server thread/INFO]: Max TNT Explosions: 100
+[22:06:13] [Server thread/INFO]: Max Entity Collisions: 8
+[22:06:13] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:06:13] [Server thread/INFO]: -------- World Settings For [world] --------
+[22:06:13] [Server thread/INFO]: Fix TNT cannons: false
+[22:06:13] [Server thread/INFO]: Water over lava flow speed: 5
+[22:06:13] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[22:06:13] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[22:06:13] [Server thread/INFO]: Player critical damage multiplier set to 1.5
+[22:06:13] [Server thread/INFO]: World async lighting: false
+[22:06:13] [Server thread/INFO]: Keep spawn chunk loaded: true
+[22:06:13] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[22:06:13] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[22:06:13] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[22:06:13] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[22:06:13] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[22:06:13] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[22:06:13] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[22:06:13] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:06:13] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:06:13] [Server thread/INFO]: View Distance: 10
+[22:06:13] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:06:13] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:06:13] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:06:13] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[22:06:13] [Server thread/INFO]: Clear tick list: false
+[22:06:13] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:06:13] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[22:06:13] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[22:06:13] [Server thread/INFO]: Anti X-Ray: true
+[22:06:13] [Server thread/INFO]: 	Engine Mode: 1
+[22:06:13] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[22:06:13] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[22:06:13] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:06:13] [Server thread/INFO]: Mob Spawn Range: 4
+[22:06:13] [Server thread/INFO]: Random Lighting Updates: false
+[22:06:13] [Server thread/INFO]: Structure Info Saving: true
+[22:06:13] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:06:13] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:06:13] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:06:13] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:06:13] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:06:13] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:06:13] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:06:13] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:06:13] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:06:13] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[22:06:13] [Server thread/INFO]: Sending up to 10 chunks per packet
+[22:06:13] [Server thread/INFO]: Max TNT Explosions: 100
+[22:06:13] [Server thread/INFO]: Max Entity Collisions: 8
+[22:06:13] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:06:13] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[22:06:13] [Server thread/INFO]: Fix TNT cannons: false
+[22:06:13] [Server thread/INFO]: Water over lava flow speed: 5
+[22:06:13] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[22:06:13] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[22:06:13] [Server thread/INFO]: Player critical damage multiplier set to 1.5
+[22:06:13] [Server thread/INFO]: World async lighting: false
+[22:06:13] [Server thread/INFO]: Keep spawn chunk loaded: true
+[22:06:13] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[22:06:13] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[22:06:13] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[22:06:13] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[22:06:13] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[22:06:13] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[22:06:13] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[22:06:13] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:06:13] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:06:13] [Server thread/INFO]: View Distance: 10
+[22:06:13] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:06:13] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:06:13] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:06:13] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[22:06:13] [Server thread/INFO]: Clear tick list: false
+[22:06:13] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:06:13] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[22:06:13] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[22:06:13] [Server thread/INFO]: Anti X-Ray: true
+[22:06:13] [Server thread/INFO]: 	Engine Mode: 1
+[22:06:13] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[22:06:13] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[22:06:13] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:06:13] [Server thread/INFO]: Mob Spawn Range: 4
+[22:06:13] [Server thread/INFO]: Random Lighting Updates: false
+[22:06:13] [Server thread/INFO]: Structure Info Saving: true
+[22:06:13] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:06:13] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:06:13] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:06:13] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:06:13] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:06:13] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:06:13] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:06:13] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:06:13] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:06:13] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[22:06:13] [Server thread/INFO]: Sending up to 10 chunks per packet
+[22:06:13] [Server thread/INFO]: Max TNT Explosions: 100
+[22:06:13] [Server thread/INFO]: Max Entity Collisions: 8
+[22:06:13] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:06:13] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[22:06:13] [Server thread/INFO]: Fix TNT cannons: false
+[22:06:13] [Server thread/INFO]: Water over lava flow speed: 5
+[22:06:13] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[22:06:13] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[22:06:13] [Server thread/INFO]: Player critical damage multiplier set to 1.5
+[22:06:13] [Server thread/INFO]: World async lighting: false
+[22:06:13] [Server thread/INFO]: Keep spawn chunk loaded: true
+[22:06:13] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[22:06:13] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[22:06:13] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[22:06:13] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[22:06:13] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[22:06:13] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[22:06:13] [Server thread/INFO]: Preparing start region for level 0 (Seed: -9028217090428863210)
+[22:06:13] [Server thread/INFO]: Preparing start region for level 1 (Seed: -9028217090428863210)
+[22:06:14] [Server thread/INFO]: Preparing start region for level 2 (Seed: -9028217090428863210)
+[22:06:14] [Server thread/INFO]: [TwentyQuestions] Enabling TwentyQuestions v1.0
+[22:06:14] [Server thread/INFO]: [TwentyQuestions] 20 Questions plugin has been enabled!
+[22:06:14] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.5.1
+[22:06:14] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.7.0
+[22:06:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:06:14] [Server thread/INFO]: Done (1.203s)! For help, type "help" or "?"
+[22:06:14] [Server thread/INFO]: Timings Reset
+[22:06:14] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.8.x (47)
+[22:06:14] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we are unlikely to provide any further fixes or help with problems specific to legacy Minecraft versions. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
+[22:06:14] [Server thread/WARN]: [ViaVersion] You are running an outdated Java version, please consider updating it to at least Java 17 (your version is 11.0.24). At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[22:06:14] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[22:06:15] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.2.1, you're on: 4.5.1
+[22:06:16] [User Authenticator #1/INFO]: UUID of player Krouda is d9df1a84-ba40-4d5c-81fa-bfcdd1672982
+[22:06:16] [Server thread/INFO]: Krouda[/127.0.0.1:60480] logged in with entity id 270 at ([world]34.30000001192093, 74.0, 265.57307020196913)
+[22:06:16] [User Authenticator #1/INFO]: UUID of player senseiseason is 69670bc4-155e-4111-8556-82e226fb145a
+[22:06:17] [Server thread/INFO]: senseiseason[/127.0.0.1:60483] logged in with entity id 271 at ([world]-113.85926729746681, 67.0, 318.83537978713235)
+[22:06:18] [User Authenticator #1/INFO]: UUID of player Bbatta is 17ef93f4-8911-4d05-bfb3-f00dccc34f36
+[22:06:18] [Server thread/INFO]: Bbatta[/127.0.0.1:60485] logged in with entity id 313 at ([world]-0.48802809714999706, 67.0, 215.1040870831295)
+[22:06:20] [Server thread/INFO]: senseiseason issued server command: /게임 시작
+[22:06:20] [Server thread/INFO]: 스무고개가 시작되었습니다!
+[22:06:20] [Server thread/INFO]: ? 출제자: Krouda
+[22:06:24] [Server thread/INFO]: Krouda issued server command: /주제 설정 힙합
+[22:06:24] [Server thread/INFO]: 주제가 설정되었습니다!
+[22:06:27] [Server thread/INFO]: Krouda issued server command: /정답 지미페이지
+[22:06:32] [Server thread/INFO]: Krouda issued server command: /정답 설정 지미페이지
+[22:06:32] [Server thread/INFO]: 게임이 곧 시작됩니다!
+[22:06:32] [Server thread/INFO]: 5
+[22:06:33] [Server thread/INFO]: 4
+[22:06:34] [Server thread/INFO]: 3
+[22:06:35] [Server thread/INFO]: 2
+[22:06:36] [Server thread/INFO]: 1
+[22:06:37] [Server thread/INFO]: 게임이 시작되었습니다!
+[22:06:37] [Server thread/INFO]: ? 주제: 힙합
+[22:06:37] [Server thread/INFO]: ? 현재 차례: senseiseason
+[22:06:43] [Server thread/INFO]: senseiseason issued server command: /질문 ㅎㅇ
+[22:06:43] [Server thread/INFO]: ? senseiseason의 질문: 
+'ㅎㅇ'
+[22:06:45] [Server thread/INFO]: Krouda issued server command: /응답 O
+[22:06:45] [Server thread/INFO]: ? 출제자의 답변: O
+[22:06:45] [Server thread/INFO]: 남은 기회: 19
+[22:06:45] [Server thread/INFO]: ? 현재 차례: Bbatta
+[22:06:52] [Server thread/INFO]: Bbatta issued server command: /순서양도
+[22:06:55] [Server thread/INFO]: senseiseason issued server command: /순서양도 수락
+[22:06:55] [Server thread/INFO]: ? 현재 차례: senseiseason
+[22:06:59] [Server thread/INFO]: senseiseason issued server command: /질문 ㅎㅇ
+[22:06:59] [Server thread/INFO]: ? senseiseason의 질문: 
+'ㅎㅇ'
+[22:07:00] [Server thread/INFO]: Krouda issued server command: /응답 X
+[22:07:00] [Server thread/INFO]: ? 출제자의 답변: X
+[22:07:00] [Server thread/INFO]: 남은 기회: 18
+[22:07:00] [Server thread/INFO]: ? 현재 차례: senseiseason
+[22:07:02] [Server thread/INFO]: senseiseason issued server command: /질문 ㅎㅇ
+[22:07:02] [Server thread/INFO]: ? senseiseason의 질문: 
+'ㅎㅇ'
+[22:07:04] [Server thread/INFO]: Krouda issued server command: /응답 X
+[22:07:04] [Server thread/INFO]: ? 출제자의 답변: X
+[22:07:04] [Server thread/INFO]: 남은 기회: 17
+[22:07:04] [Server thread/INFO]: ? 현재 차례: Bbatta
+[22:07:12] [Server thread/INFO]: Bbatta issued server command: /질문 ㅎㅇ
+[22:07:12] [Server thread/INFO]: ? Bbatta의 질문: 
+'ㅎㅇ'
+[22:07:14] [Server thread/INFO]: Krouda issued server command: /응답 X
+[22:07:14] [Server thread/INFO]: ? 출제자의 답변: X
+[22:07:14] [Server thread/INFO]: 남은 기회: 16
+[22:07:14] [Server thread/INFO]: ? 현재 차례: senseiseason
+[22:07:16] [Server thread/INFO]: senseiseason issued server command: /순서양도 수락
+[22:07:17] [Server thread/INFO]: senseiseason issued server command: /질문 ㅎㅇ
+[22:07:17] [Server thread/INFO]: ? senseiseason의 질문: 
+'ㅎㅇ'
+[22:07:18] [Server thread/INFO]: Krouda issued server command: /응답 X
+[22:07:18] [Server thread/INFO]: ? 출제자의 답변: X
+[22:07:18] [Server thread/INFO]: 남은 기회: 15
+[22:07:18] [Server thread/INFO]: ? 현재 차례: senseiseason
+[22:07:20] [Server thread/INFO]: senseiseason issued server command: /질문 ㅎㅇ
+[22:07:20] [Server thread/INFO]: ? senseiseason의 질문: 
+'ㅎㅇ'
+[22:07:21] [Server thread/INFO]: Krouda issued server command: /응답 X
+[22:07:21] [Server thread/INFO]: ? 출제자의 답변: X
+[22:07:21] [Server thread/INFO]: 남은 기회: 14
+[22:07:21] [Server thread/INFO]: ? 현재 차례: senseiseason
+[22:08:08] [Server thread/INFO]: senseiseason issued server command: /질문 ㅎㅇ
+[22:08:08] [Server thread/INFO]: ? senseiseason의 질문: 
+'ㅎㅇ'
+[22:08:16] [Server thread/INFO]: Krouda issued server command: /응답 X
+[22:08:16] [Server thread/INFO]: ? 출제자의 답변: X
+[22:08:16] [Server thread/INFO]: 남은 기회: 13
+[22:08:16] [Server thread/INFO]: ? 현재 차례: Bbatta
+[22:08:34] [Server thread/INFO]: Bbatta issued server command: /질문 ㅎㅇ
+[22:08:34] [Server thread/INFO]: ? Bbatta의 질문: 
+'ㅎㅇ'
+[22:08:57] [Server thread/INFO]: Bbatta issued server command: /op
+[22:09:06] [Async Chat Thread - #0/INFO]: <Bbatta> d
+[22:09:18] [Async Chat Thread - #0/INFO]: <Bbatta> d
+[22:09:24] [Async Chat Thread - #0/INFO]: <Bbatta> d
+[22:09:31] [Async Chat Thread - #0/INFO]: <Bbatta> d
+[22:09:34] [Server thread/INFO]: Bbatta님이 1분 동안 아무 행동도 하지 않았습니다. 순서가 넘어갑니다.
+[22:09:34] [Server thread/INFO]: ? 현재 차례: Bbatta
+[22:10:34] [Server thread/INFO]: Bbatta님이 1분 동안 아무 행동도 하지 않았습니다. 순서가 넘어갑니다.
+[22:10:34] [Server thread/INFO]: ? 현재 차례: Bbatta
+[22:11:34] [Server thread/INFO]: Bbatta님이 1분 동안 아무 행동도 하지 않았습니다. 순서가 넘어갑니다.
+[22:11:34] [Server thread/INFO]: ? 현재 차례: Bbatta
+[22:11:54] [Server thread/INFO]: Bbatta issued server command: /정답 앙
+[22:11:54] [Server thread/INFO]: Bbatta님의 정답이 틀렸습니다!
+[22:11:54] [Server thread/INFO]: 남은 기회: 12
+[22:11:54] [Server thread/INFO]: ? 현재 차례: senseiseason
+[22:12:02] [Server thread/INFO]: senseiseason issued server command: /정답 앙
+[22:12:02] [Server thread/INFO]: senseiseason님의 정답이 틀렸습니다!
+[22:12:02] [Server thread/INFO]: 남은 기회: 11
+[22:12:02] [Server thread/INFO]: ? 현재 차례: senseiseason
+[22:12:03] [Server thread/INFO]: senseiseason issued server command: /정답 앙
+[22:12:03] [Server thread/INFO]: senseiseason님의 정답이 틀렸습니다!
+[22:12:03] [Server thread/INFO]: 남은 기회: 10
+[22:12:03] [Server thread/INFO]: ? 현재 차례: senseiseason
+[22:12:04] [Server thread/INFO]: senseiseason issued server command: /정답 앙
+[22:12:04] [Server thread/INFO]: senseiseason님의 정답이 틀렸습니다!
+[22:12:04] [Server thread/INFO]: 남은 기회: 9
+[22:12:04] [Server thread/INFO]: ? 현재 차례: senseiseason
+[22:12:04] [Server thread/INFO]: senseiseason issued server command: /정답 앙
+[22:12:04] [Server thread/INFO]: senseiseason님의 정답이 틀렸습니다!
+[22:12:04] [Server thread/INFO]: 남은 기회: 8
+[22:12:04] [Server thread/INFO]: ? 현재 차례: senseiseason
+[22:12:05] [Server thread/INFO]: senseiseason issued server command: /정답 앙
+[22:12:05] [Server thread/INFO]: senseiseason님의 정답이 틀렸습니다!
+[22:12:05] [Server thread/INFO]: 남은 기회: 7
+[22:12:05] [Server thread/INFO]: ? 현재 차례: senseiseason
+[22:12:05] [Server thread/INFO]: senseiseason issued server command: /정답 앙
+[22:12:05] [Server thread/INFO]: senseiseason님의 정답이 틀렸습니다!
+[22:12:05] [Server thread/INFO]: 남은 기회: 6
+[22:12:05] [Server thread/INFO]: ? 현재 차례: Bbatta
+[22:12:05] [Server thread/INFO]: senseiseason issued server command: /정답 앙
+[22:12:06] [Async Chat Thread - #1/INFO]: <Bbatta> d
+[22:12:07] [Server thread/INFO]: Bbatta issued server command: /정답 앙
+[22:12:07] [Server thread/INFO]: Bbatta님의 정답이 틀렸습니다!
+[22:12:07] [Server thread/INFO]: 남은 기회: 5
+[22:12:07] [Server thread/INFO]: ? 현재 차례: Bbatta
+[22:12:07] [Server thread/INFO]: Bbatta issued server command: /정답 앙
+[22:12:07] [Server thread/INFO]: Bbatta님의 정답이 틀렸습니다!
+[22:12:07] [Server thread/INFO]: 남은 기회: 4
+[22:12:07] [Server thread/INFO]: ? 현재 차례: senseiseason
+[22:12:08] [Server thread/INFO]: Bbatta issued server command: /정답 앙
+[22:12:09] [Server thread/INFO]: senseiseason issued server command: /정답 앙
+[22:12:09] [Server thread/INFO]: senseiseason님의 정답이 틀렸습니다!
+[22:12:09] [Server thread/INFO]: 남은 기회: 3
+[22:12:09] [Server thread/INFO]: ? 현재 차례: senseiseason
+[22:12:09] [Server thread/INFO]: senseiseason issued server command: /정답 앙
+[22:12:09] [Server thread/INFO]: senseiseason님의 정답이 틀렸습니다!
+[22:12:09] [Server thread/INFO]: 남은 기회: 2
+[22:12:09] [Server thread/INFO]: ? 현재 차례: senseiseason
+[22:12:10] [Server thread/INFO]: senseiseason issued server command: /정답 앙
+[22:12:10] [Server thread/INFO]: senseiseason님의 정답이 틀렸습니다!
+[22:12:10] [Server thread/INFO]: 남은 기회: 1
+[22:12:10] [Server thread/INFO]: ? 현재 차례: senseiseason
+[22:12:10] [Server thread/INFO]: senseiseason issued server command: /정답 앙
+[22:12:10] [Server thread/INFO]: senseiseason님의 정답이 틀렸습니다!
+[22:12:10] [Server thread/INFO]: 남은 기회: 0
+[22:12:10] [Server thread/INFO]: 출제자 Krouda의 승리!
+[22:12:10] [Server thread/INFO]: 정답은 '지미페이지'였습니다!
+[22:13:10] [Server thread/INFO]: senseiseason님이 1분 동안 아무 행동도 하지 않았습니다. 순서가 넘어갑니다.
+[22:13:10] [Server thread/INFO]: ? 현재 차례: senseiseason
+[22:14:10] [Server thread/INFO]: senseiseason님이 1분 동안 아무 행동도 하지 않았습니다. 순서가 넘어갑니다.
+[22:14:10] [Server thread/INFO]: ? 현재 차례: Bbatta
+[22:15:10] [Server thread/INFO]: Bbatta님이 1분 동안 아무 행동도 하지 않았습니다. 순서가 넘어갑니다.
+[22:15:10] [Server thread/INFO]: ? 현재 차례: Bbatta
+[22:15:15] [Server thread/INFO]: senseiseason lost connection: Internal Exception: java.io.IOException: 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다
+[22:15:15] [Server thread/INFO]: Krouda lost connection: Internal Exception: java.io.IOException: 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다
+[22:15:16] [Server thread/INFO]: Bbatta lost connection: Internal Exception: java.io.IOException: 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다
+[22:15:18] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[22:15:22] [Server thread/INFO]: Stopping the server
+[22:15:22] [Server thread/INFO]: Stopping server
+[22:15:22] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v2.0.2
+[22:15:22] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.7.0
+[22:15:22] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.5.1
+[22:15:22] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[22:15:22] [Server thread/INFO]: [TwentyQuestions] Disabling TwentyQuestions v1.0
+[22:15:22] [Server thread/INFO]: [TwentyQuestions] 20 Questions plugin has been disabled!
+[22:15:22] [Server thread/INFO]: Saving players
+[22:15:22] [Server thread/INFO]: Saving worlds
+[22:15:22] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[22:15:22] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[22:15:22] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
