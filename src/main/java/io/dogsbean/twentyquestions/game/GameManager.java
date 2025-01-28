@@ -97,7 +97,7 @@ public class GameManager {
         }
 
         this.topic = topic;
-        Bukkit.broadcastMessage(ChatColor.GREEN + ChatColor.BOLD.toString() + "주제가 설정되었습니다!");
+        Bukkit.broadcastMessage(ChatColor.GREEN + ChatColor.BOLD.toString() + "✔ 주제가 설정되었습니다!");
         questioner.sendMessage(ChatColor.YELLOW + "'/정답 설정 <정답>'으로 정답을 설정해주세요.");
         players.forEach(scoreboardManager::updateScoreboard);
         return true;
@@ -236,7 +236,7 @@ public class GameManager {
     }
 
     private void sendHintPrompt() {
-        TextComponent message = new TextComponent(ChatColor.GOLD + "연속으로 5번의 틀린 답변이 있었습니다. 힌트를 제공하시겠습니까? ");
+        TextComponent message = new TextComponent(ChatColor.GOLD + "힌트를 제공하시겠습니까? ");
 
         TextComponent yesButton = new TextComponent(ChatColor.GREEN + "[제공]");
         yesButton.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT,
@@ -258,11 +258,11 @@ public class GameManager {
     }
 
     public void provideHint(String hint) {
-        Bukkit.broadcastMessage(ChatColor.GOLD + "힌트: " + ChatColor.YELLOW + hint);
+        Bukkit.broadcastMessage(ChatColor.WHITE + "◾ 힌트: " + ChatColor.GREEN + hint);
     }
 
     public void rejectHint() {
-        Bukkit.broadcastMessage(ChatColor.RED + "출제자가 힌트 제공을 거절했습니다!");
+        Bukkit.broadcastMessage(ChatColor.RED + ChatColor.BOLD.toString() + "출제자가 힌트 제공을 거절했습니다!");
     }
 
     public boolean isGameOver() {
