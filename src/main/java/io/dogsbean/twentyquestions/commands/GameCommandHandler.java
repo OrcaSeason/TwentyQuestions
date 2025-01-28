@@ -64,6 +64,15 @@ public class GameCommandHandler {
                     return handleAnswer(player, args[0]);
                 }
                 break;
+            case "힌트":
+                if (args.length >= 1) {
+                    if (args[0].equals("제공") && args.length >= 2) {
+                        return handleHintProvide(player, String.join(" ", args).substring(3));
+                    } else if (args[0].equals("거절")) {
+                        return handleHintReject(player);
+                    }
+                }
+                break;
         }
         return false;
     }
@@ -80,13 +89,15 @@ public class GameCommandHandler {
             return true;
         }
 
-        gameManager.cancelResetTimer();
+        gameManager.resetPlayerTimeout();
 
         if (gameManager.checkAnswer(guess)) {
             Bukkit.broadcastMessage(ChatColor.GREEN + player.getName() + "님이 정답을 맞추셨습니다!");
+            gameManager.handleCorrectAnswer();
             gameManager.endGame(false);
         } else {
             Bukkit.broadcastMessage(ChatColor.RED + player.getName() + "님의 정답이 틀렸습니다!");
+            gameManager.handleWrongAnswer();
             handleDeductChance(gameManager.getQuestioner());
         }
 
@@ -134,7 +145,32 @@ public class GameCommandHandler {
         }
 
         Bukkit.broadcastMessage(ChatColor.WHITE + "◾ 출제자의 답변: " + ChatColor.GREEN + answer);
+        if (answer.equals("X")) {
+            gameManager.handleWrongAnswer();
+        } else {
+            gameManager.handleCorrectAnswer();
+        }
         handleDeductChance(player);
+        return true;
+    }
+
+    private boolean handleHintProvide(Player player, String hint) {
+        if (gameManager.getGameState() != GameState.PLAYING || player != gameManager.getQuestioner()) {
+            player.sendMessage(ChatColor.RED + "지금은 힌트를 제공할 수 없습니다!");
+            return true;
+        }
+
+        gameManager.provideHint(hint);
+        return true;
+    }
+
+    private boolean handleHintReject(Player player) {
+        if (gameManager.getGameState() != GameState.PLAYING || player != gameManager.getQuestioner()) {
+            player.sendMessage(ChatColor.RED + "지금은 힌트 제공을 거절할 수 없습니다!");
+            return true;
+        }
+
+        gameManager.rejectHint();
         return true;
     }
 

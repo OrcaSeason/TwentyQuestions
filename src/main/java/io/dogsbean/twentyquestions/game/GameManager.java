@@ -2,6 +2,10 @@ package io.dogsbean.twentyquestions.game;
 
 import io.dogsbean.twentyquestions.Main;
 import io.dogsbean.twentyquestions.scoreboard.ScoreboardManager;
+import net.md_5.bungee.api.chat.ClickEvent;
+import net.md_5.bungee.api.chat.ComponentBuilder;
+import net.md_5.bungee.api.chat.HoverEvent;
+import net.md_5.bungee.api.chat.TextComponent;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
@@ -25,7 +29,7 @@ public class GameManager {
     private BukkitRunnable currentPlayerTimeoutTask;
     private final ScoreboardManager scoreboardManager;
     public boolean hasAskedQuestion = false;
-    private boolean hasSetAnswer = false;
+    private int consecutiveWrongCount = 0;
 
     public GameManager(Main plugin, ScoreboardManager scoreboardManager) {
         this.plugin = plugin;
@@ -217,6 +221,48 @@ public class GameManager {
     public void deductQuestion() {
         remainingQuestions--;
         Bukkit.broadcastMessage(ChatColor.YELLOW + "남은 기회: " + remainingQuestions);
+    }
+
+    public void handleWrongAnswer() {
+        consecutiveWrongCount++;
+        if (consecutiveWrongCount >= 5) {
+            sendHintPrompt();
+            consecutiveWrongCount = 0;
+        }
+    }
+
+    public void handleCorrectAnswer() {
+        consecutiveWrongCount = 0;
+    }
+
+    private void sendHintPrompt() {
+        TextComponent message = new TextComponent(ChatColor.GOLD + "연속으로 5번의 틀린 답변이 있었습니다. 힌트를 제공하시겠습니까? ");
+
+        TextComponent yesButton = new TextComponent(ChatColor.GREEN + "[제공]");
+        yesButton.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT,
+                new ComponentBuilder(ChatColor.GREEN + "힌트를 제공하려면 클릭하세요").create()));
+        yesButton.setClickEvent(new ClickEvent(ClickEvent.Action.RUN_COMMAND, "/힌트 제공"));
+
+        TextComponent separator = new TextComponent(" ");
+
+        TextComponent noButton = new TextComponent(ChatColor.RED + "[거절]");
+        noButton.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT,
+                new ComponentBuilder(ChatColor.RED + "힌트 제공을 거절하려면 클릭하세요").create()));
+        noButton.setClickEvent(new ClickEvent(ClickEvent.Action.RUN_COMMAND, "/힌트 거절"));
+
+        message.addExtra(yesButton);
+        message.addExtra(separator);
+        message.addExtra(noButton);
+
+        questioner.spigot().sendMessage(message);
+    }
+
+    public void provideHint(String hint) {
+        Bukkit.broadcastMessage(ChatColor.GOLD + "힌트: " + ChatColor.YELLOW + hint);
+    }
+
+    public void rejectHint() {
+        Bukkit.broadcastMessage(ChatColor.RED + "출제자가 힌트 제공을 거절했습니다!");
     }
 
     public boolean isGameOver() {
