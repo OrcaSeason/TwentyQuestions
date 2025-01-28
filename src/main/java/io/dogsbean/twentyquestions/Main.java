@@ -5,6 +5,7 @@ import io.dogsbean.twentyquestions.game.GameManager;
 import io.dogsbean.twentyquestions.game.GameState;
 import io.dogsbean.twentyquestions.game.TurnDelegationGUI;
 import io.dogsbean.twentyquestions.game.TurnDelegationManager;
+import io.dogsbean.twentyquestions.listener.BasicPreventionListener;
 import io.dogsbean.twentyquestions.scoreboard.ScoreboardManager;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
@@ -50,6 +51,8 @@ public class Main extends JavaPlugin {
                 }
             }
         }, this);
+
+        getServer().getPluginManager().registerEvents(new BasicPreventionListener(), this);
     }
 
     @Override

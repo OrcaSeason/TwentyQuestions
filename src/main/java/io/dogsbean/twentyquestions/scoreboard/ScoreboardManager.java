@@ -4,7 +4,10 @@ import io.dogsbean.twentyquestions.Main;
 import io.dogsbean.twentyquestions.game.GameState;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
-import org.bukkit.scoreboard.*;
+import org.bukkit.scoreboard.DisplaySlot;
+import org.bukkit.scoreboard.Objective;
+import org.bukkit.scoreboard.Score;
+import org.bukkit.scoreboard.Scoreboard;
 
 public class ScoreboardManager {
     private final Main plugin;
