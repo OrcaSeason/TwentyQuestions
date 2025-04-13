@@ -5,30 +5,40 @@ import io.dogsbean.twentyquestions.game.GameManager;
 import io.dogsbean.twentyquestions.game.GameState;
 import io.dogsbean.twentyquestions.game.TurnDelegationGUI;
 import io.dogsbean.twentyquestions.game.TurnDelegationManager;
+import io.dogsbean.twentyquestions.lang.LanguageManager;
 import io.dogsbean.twentyquestions.listener.BasicPreventionListener;
 import io.dogsbean.twentyquestions.scoreboard.ScoreboardManager;
+import lombok.Getter;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
+import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
+@Getter
 public class Main extends JavaPlugin {
     private GameManager gameManager;
     private ScoreboardManager scoreboardManager;
     private TurnDelegationManager turnDelegationManager;
+    private LanguageManager languageManager;
     private GameCommandHandler gameCommandHandler;
 
     @Override
     public void onEnable() {
+        saveDefaultConfig();
+        FileConfiguration config = getConfig();
+        String language = config.getString("language", "ko");
+
+        languageManager = new LanguageManager(this, language);
         scoreboardManager = new ScoreboardManager(this);
-        gameManager = new GameManager(this, scoreboardManager);
-        turnDelegationManager = new TurnDelegationManager(this, gameManager);
-        gameCommandHandler = new GameCommandHandler(this, gameManager);
+        gameManager = new GameManager(this, scoreboardManager, languageManager);
+        turnDelegationManager = new TurnDelegationManager(this, gameManager, languageManager);
+        gameCommandHandler = new GameCommandHandler(this, gameManager, languageManager);
 
         getLogger().info("20 Questions plugin has been enabled!");
 
@@ -75,7 +85,7 @@ public class Main extends JavaPlugin {
                     player.sendMessage(ChatColor.RED + "지금은 순서를 양도할 수 없습니다!");
                     return true;
                 }
-                new TurnDelegationGUI(this, player, gameManager.getPlayers()).open();
+                new TurnDelegationGUI(this, player, gameManager.getPlayers(), languageManager).open();
                 return true;
             } else if (args.length == 1) {
                 if (args[0].equals("수락") || args[0].equals("거절")) {
@@ -87,9 +97,5 @@ public class Main extends JavaPlugin {
         }
 
         return gameCommandHandler.handleCommand(player, command.getName(), args);
-    }
-
-    public GameManager getGameManager() {
-        return gameManager;
     }
 }

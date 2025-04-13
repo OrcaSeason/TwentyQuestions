@@ -1,31 +1,41 @@
 name: TwentyQuestions
 version: 1.0
 main: io.dogsbean.twentyquestions.Main
+api-version: 1.13
 commands:
   게임:
     description: 게임 시작 명령어
-    usage: /게임 시작
+    usage: /<command> 시작
+    aliases: [game]
   주제:
     description: 주제 설정 명령어
-    usage: /주제 설정 <주제>
+    usage: /<command> 설정 <주제>
+    aliases: [topic]
   정답:
     description: 정답 설정/추측 명령어
-    usage: /정답 <설정/정답>
+    usage: /<command> [설정 <정답> | <정답>]
+    aliases: [answer]
   질문:
     description: 질문 명령어
-    usage: /질문 <질문>
+    usage: /<command> <질문>
+    aliases: [question]
   기회:
     description: 기회 차감 명령어
-    usage: /기회 차감
+    usage: /<command> 차감
+    aliases: [chance]
   정답공개:
     description: 정답 공개 명령어
-    usage: /정답 공개
+    usage: /<command>
+    aliases: [reveal]
   응답:
     description: O/X 답변 명령어
-    usage: /응답 <O/X>
+    usage: /<command> [O|X]
+    aliases: [respond]
   순서양도:
     description: 다른 플레이어에게 순서를 양도합니다
     usage: /<command> [수락|거절]
+    aliases: [delegate]
   힌트:
     description: 다른 플레이어에게 힌트를 줍니다
-    usage: /<command> [제공|거절]
+    usage: /<command> [제공 <힌트>|거절]
+    aliases: [hint]

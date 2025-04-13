@@ -19,7 +19,7 @@ public class ScoreboardManager {
     public void updateScoreboard(Player player) {
         Scoreboard board = Bukkit.getScoreboardManager().getNewScoreboard();
         Objective obj = board.registerNewObjective("twentyquestions", "dummy");
-        obj.setDisplayName("§6§l스무고개");
+        obj.setDisplayName(plugin.getLanguageManager().getMessage("scoreboard-title"));
         obj.setDisplaySlot(DisplaySlot.SIDEBAR);
 
         if (plugin.getGameManager().getGameState() != GameState.PLAYING) {
@@ -28,27 +28,27 @@ public class ScoreboardManager {
 
         Player questioner = plugin.getGameManager().getQuestioner();
         if (questioner != null) {
-            Score questionerScore = obj.getScore("§f출제자: §6" + questioner.getDisplayName());
+            Score questionerScore = obj.getScore(plugin.getLanguageManager().getMessage("scoreboard-questioner", "%questioner%", questioner.getDisplayName()));
             questionerScore.setScore(0);
         }
 
         Player currentPlayer = plugin.getGameManager().getCurrentPlayer();
         if (currentPlayer != null) {
-            Score currentPlayerScore = obj.getScore("§f질문자: §6" + currentPlayer.getDisplayName());
+            Score currentPlayerScore = obj.getScore(plugin.getLanguageManager().getMessage("scoreboard-current-player", "%player%", currentPlayer.getDisplayName()));
             currentPlayerScore.setScore(1);
         }
 
         String topic = plugin.getGameManager().getTopic();
         if (topic != null) {
-            Score topicScore = obj.getScore("§f주제: §6" + topic);
+            Score topicScore = obj.getScore(plugin.getLanguageManager().getMessage("scoreboard-topic", "%topic%", topic));
             topicScore.setScore(2);
         }
 
         Integer remainingQuestions = plugin.getGameManager().getRemainingQuestions();
-        Score remainingQuestionsScore = obj.getScore("§f남은 기회: §6" + remainingQuestions);
+        Score remainingQuestionsScore = obj.getScore(plugin.getLanguageManager().getMessage("scoreboard-remaining-questions", "%count%", remainingQuestions.toString()));
         remainingQuestionsScore.setScore(3);
 
-        Score emptyLine = obj.getScore("§f");
+        Score emptyLine = obj.getScore(plugin.getLanguageManager().getMessage("scoreboard-empty-line"));
         emptyLine.setScore(4);
 
         player.setScoreboard(board);
