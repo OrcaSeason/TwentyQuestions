@@ -1,6 +1,7 @@
 name: TwentyQuestions
 version: 1.0
-main: io.dogsbean.twentyquestions.Main
+main: com.orcaseason.twentyquestions.Main
+author: OrcaSeason Development
 api-version: 1.13
 commands:
   게임:
