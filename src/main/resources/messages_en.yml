@@ -1,0 +1,69 @@
+delegation-accept: '&a[Accept]'
+error-no-players: '&c[Error 1]: No players found.'
+cannot-ask-question: You cannot ask a question now!
+cannot-reject-hint: You cannot decline to provide a hint now!
+cannot-reveal-answer: You cannot reveal the answer now!
+plugin-enabled: Twenty Questions plugin has been enabled!
+player-only-command: This command can only be used by players!
+question-broadcast: "&f◾ &a%player%'s question: \n&e&l'%question%'"
+cannot-answer: You cannot respond now!
+delegation-accepted-to: '&aYou accepted the turn delegation.'
+delegation-request-sent: '&aSent a turn delegation request to %player%.'
+scoreboard-questioner: '&fQuestioner: &6%questioner%'
+delegation-prompt: '&a%from% wants to delegate their turn to you. '
+hint-yes-hover: Click to provide a hint.
+timeout-message: '&c%player% has been inactive for 1 minute. Passing the turn.'
+questioner-win: '&aQuestioner %questioner% wins!'
+game-already-in-progress: A game is already in progress!
+answer-broadcast: '&f◾ Questioner''s response: &a%answer%'
+cannot-delegate-now: You cannot delegate your turn now!
+game-starting-soon: '&aThe game will start soon!'
+remaining-questions: '&eQuestions remaining: %count%'
+plugin-disabled: Twenty Questions plugin has been disabled!
+delegation-request-exists: '&cThere is already a pending delegation request for this
+  player!'
+delegation-denied-to: '&cYou denied the turn delegation.'
+countdown: '&e%count%'
+error-no-available-players: '&c[Error 2]: No players available excluding the previous
+  player.'
+no-delegation-request: '&cThere is no pending delegation request to process!'
+scoreboard-current-player: '&fCurrent Player: &6%player%'
+hint-yes: '&a[Provide]'
+delegation denied-from: '&c%player% denied the turn delegation.'
+turn-delegation-gui-title: '&2Delegate Turn'
+hint-no: '&c[Deny]'
+game-started: '&a&lTwenty Questions has started!'
+answer-no: '&c[No]'
+hint-no-hover: Click to deny providing a hint.
+correct-answer: '&a%player% guessed the answer correctly!'
+hint-broadcast: '&f◾ Hint: &a%hint%'
+cannot-set-topic: You cannot set the topic now!
+game-started-playing: '&a&lThe game has started!'
+answer-yes: '&a[Yes]'
+scoreboard-remaining-questions: '&fQuestions Left: &6%count%'
+cannot-set-answer: You cannot set the answer now!
+answer-yes-hover: Click if the question is relevant to the answer.
+cannot-deduct-chance: You cannot deduct a question now!
+topic-announce: '&f◾ Topic: &a&l%topic%'
+questioner-announce: '&f◾ Questioner: &a%questioner%'
+topic-set: '&a&l✔ Topic has been set!'
+not-enough-players: At least 2 players are required to start the game!
+scoreboard-topic: '&fTopic: &6%topic%'
+wrong-answer: '&c%player%''s guess was incorrect!'
+answer-reveal: '&6The answer was ''%answer%''!'
+set-answer-prompt: '&ePlease set the answer using ''/answer set <answer>''.'
+delegation-deny-hover: Click to deny
+cannot-guess-answer: You cannot guess the answer now!
+delegation-invalid-state: '&cTurn delegation is not possible at this time!'
+answer-prompt: '&6Respond: '
+hint-rejected: '&c&lThe questioner declined to provide a hint!'
+hint-prompt: '&6Would you like to provide a hint? '
+current-player-announce: '&f◾ Current turn: &a%player%'
+delegation-deny: '&c[Deny]'
+delegation-accepted-from: '&a%player% accepted the turn delegation.'
+set-topic-prompt: '&ePlease set the topic using ''/topic set <topic>''.'
+delegation-accept-hover: Click to accept
+players-win: '&aThe players win!'
+scoreboard-empty-line: '&f'
+cannot-provide-hint: You cannot provide a hint now!
+answer-no-hover: Click if the question is not relevant to the answer.
